@@ -1,0 +1,4 @@
+dataset_config:
+  memes_tgt:
+    use_images: false
+    use_features : true

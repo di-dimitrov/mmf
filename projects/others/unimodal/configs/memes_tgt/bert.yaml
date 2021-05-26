@@ -1,0 +1,17 @@
+includes:
+- ./text.yaml
+- configs/datasets/memes_tgt/bert.yaml
+- configs/models/unimodal/bert.yaml
+
+model_config:
+  unimodal_text:
+    num_labels: 4
+    classifier:
+      type: mlp
+      params:
+        in_dim: 768
+        num_layers: 2
+        out_dim: 4
+
+training:
+  batch_size: 16
