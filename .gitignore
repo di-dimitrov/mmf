@@ -5,7 +5,6 @@
 .idea/*
 **/__pycache__/*
 **/output/*
-data/.DS_Store
 docs/build
 results/*
 build
@@ -17,7 +16,6 @@ checkpoint
 *.ckpt
 *_cache
 .cache
-data
 save
 *.eggs
 .eggs
